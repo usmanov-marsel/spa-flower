@@ -1,0 +1,44 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 48px 1fr 40px;
+  justify-items: center;
+}
+.priceWrapper {
+  justify-self: end;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.price {
+  margin-right: 15px;
+}
+.card {
+  position: relative;
+  width: 250px;
+}
+.card img {
+  width: 100px;
+  height: 100px;
+}
+.btnAdd {
+  display: flex;
+  gap: 5px;
+}
+.btnAdd button {
+  margin-top: 2px;
+}
+h4, h5, h6 {
+  margin: 0;
+}
+
+.cardAdd {
+  width: 250px;
+  background-color: #DEF4FF;
+}
+
+.cardAdd img {
+  width: 100px;
+  height: 100px;
+}
